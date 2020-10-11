@@ -52,7 +52,14 @@ function greeting( obj ) {
   Use object destructuring to save the property values to new variables.
   Sum up the values and return the total number.
 */
-
+function totalPopulation(object){
+  const {utah} = object
+  const {arizona} = object
+  const {california} = object
+  const {texas} = object
+  const allFourStates = utah + arizona + california + texas
+  return allFourStates
+}
 
 
 

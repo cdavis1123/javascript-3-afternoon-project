@@ -47,8 +47,9 @@ function addNums(num1, num2, num3) {
 }
 
 console.log(addNums)
+
 addNums = {...numbers};
-let result = numbers
+let result = numbers;
 
 
 

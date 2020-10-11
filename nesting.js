@@ -50,7 +50,7 @@ var employees = [
     3. Return the updated employee array.
 */
 
-//Code Here
+
 
 
 
@@ -68,7 +68,8 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
     3. Return the updated array.
 */
 
-//Code Here
+var workplaceAccidents = removeDuplicates
+for (let i = 0; i < removeDuplicates.length; i++)
 
 
 
