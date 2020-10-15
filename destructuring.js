@@ -34,14 +34,14 @@ const {color, make, model, year} = carDetails
 */
 
 function greeting( obj ) {
+  const {firstName, lastName, title} = obj
 
   
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
-
-
+ 
 
 ////////// PROBLEM 3 //////////
 
@@ -74,7 +74,11 @@ function totalPopulation(object){
   Push these new variables to an array and return the array. 
 */
 
-//Code Here
+function ingredients(object){
+  const {carb} = 'carb'
+  const {fat} = 'fat'
+  const {protein} = 'protein'
+}
 
 
 
