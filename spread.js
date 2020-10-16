@@ -46,10 +46,10 @@ function addNums(num1, num2, num3) {
   return num1 + num2 + num3;
 }
 
-console.log(addNums)
+addNums({...numbers});
 
-addNums = {...numbers};
-let result = numbers;
+let result = addNums(4,6,10)
+
 
 
 
