@@ -114,7 +114,10 @@ const orders = [{"price":15,"tax":0.09},{"price":42,"tax":0.07},{"price":56,"tax
   Your answer should be an array of numbers, one total for each order.
 */
 
-let orderTotals 
+
+let orderTotals = orders.map((orders) => {
+  return orders.price + (1 * orders.tax)
+});
 
 
 
@@ -134,5 +137,6 @@ const purchases = [{"owner":"Barry","price":103},{"owner":"Bob","price":75},
   Use a high order method to create to get the sum of bobsTotal.
 */
 
-let bobsTotal = purchases.Bob
+let bobsOrders = purchases.filter((purchases) => purchases.owner === 'Bob');
+let bobsTotal = bobsOrders.reduce((acc, purchase) => acc + purchase.price, 0);
 
