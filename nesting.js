@@ -77,10 +77,9 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
     2. Use nested for loops to check for duplicate numbers, and then remove the duplicates from the array.
     3. Return the updated array.
 */
+function removeDuplicates(){
 
-var workplaceAccidents = removeDuplicates
-for (let i = 0; i < removeDuplicates.length; i++)
-
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -108,8 +107,8 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity;
-var fluffy2ndFriend;
+var grumpyActivity = cat.catFriends[0].activities[1]
+var fluffy2ndFriend = cat.catFriends[1].name
 
 
 
@@ -148,8 +147,11 @@ var myCar = {
     2. Loop over the accidents array.
     3. Change atFaultForAccident from true to false.
 */
-
-//Code Here
+let accidents = myCar.accidents
+function recordCleaner(){
+for(let i = 0; i < accidents.length; i++)
+return accidents.atFaultForAccident === true
+}
 
 
 

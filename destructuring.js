@@ -77,12 +77,13 @@ let object ={
   carb: '',
   fat: '',
   protein: ''
-};
+}
+
 
 function ingredients (object)  {
-  let{carb, fat, protein} = object;
-  object.push([])
-  return []
+
+
+  
 }
 
 
